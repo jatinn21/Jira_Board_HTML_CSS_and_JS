@@ -1,0 +1,143 @@
+  @import url('https://fonts.googleapis.com/css2?family=Geologica:wght@100;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+    display:flex;
+    justify-content: center;
+    align-items: start;
+    gap: 3rem;
+    padding: 3rem;  
+background: #2C3AC1;
+background: linear-gradient(135deg, #2C3AC1, #666FF1);
+    font-family: 'Geologica', sans-serif;
+}
+
+body section{
+    width: 30%;
+    height: max-content;
+    background-color: white;
+    font-size: 2rem;
+    box-shadow: rgba(139, 139, 217, 0.726) 0px 5px 9px -1px, rgba(255, 255, 255, 0.847) 0px 4px 9px -1px;
+}
+
+section h2{
+    font-size: 2.9rem;
+    padding: 1.5rem;
+    height: 10%;
+    width: 100%;
+    font-weight: 900;
+    text-transform: capitalize;
+    box-shadow: rgba(240, 240, 242, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    background: #3646d7;
+    color: whitesmoke;
+}
+
+section div{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    margin-top: 1rem;
+}
+
+section div p{
+    font-family: 'Geologica', sans-serif;
+    font-weight: 100 !important;
+    word-wrap: break-word;
+    cursor: grab;
+    padding: 1rem 0;
+    padding-left: 1rem;
+    text-transform: capitalize;
+    margin-top: 1rem !important;   
+}
+
+.boxes{
+    max-height: 80vh;
+    overflow-y: scroll;
+    width: 100%;
+}
+
+
+section main{
+    height: 90%;
+    max-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+    padding-bottom: 2rem;
+}
+
+.boxes,.footer_Box{
+    min-height: 5rem;
+}
+
+.footer_Box{
+    border: 2px solid #313a90;
+    padding: 1rem 2rem;
+    color:#2C3AC1;
+    display:flex;
+    transition: all .7s;
+    justify-content: center;
+    text-transform: capitalize;
+    cursor: pointer !important;
+}
+
+
+
+.footer_Box:hover {
+    background-color: #2C3AC1;
+    border: 2px solid white;
+    color: whitesmoke;
+}
+
+.boxes .lists{
+    width: 100%;
+    border: 1px solid transparent ;
+    transition: all .7s;
+    background-color: #2C3AC1;
+}
+
+.boxes p{
+    width: 95% !important;
+}
+
+.boxes p:hover  {
+    background-color: rgb(255, 255, 255);
+    border: 1px solid #2C3AC1 ;
+
+    color: #2C3AC1;
+    opacity: .8;
+    box-shadow: rgba(240, 240, 242, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+
+}
+
+.boxes::-webkit-scrollbar{
+    width: .8rem;
+    margin-left: 1rem !important;
+}
+
+.boxes::-webkit-scrollbar-track{
+    border-radius: 1rem;
+    background-color: white;
+}
+.boxes::-webkit-scrollbar-thumb{
+    border-radius: 1rem;
+    background-color: #2C3AC1;
+}
+
+
+
+
+
