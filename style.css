@@ -111,6 +111,7 @@ section main{
 
 .boxes p{
     width: 95% !important;
+    font-weight: 500 !important;
 }
 
 .boxes p:hover  {
@@ -137,6 +138,9 @@ section main{
     background-color: #2C3AC1;
 }
 
+.box4{
+    text-decoration: line-through;
+}
 
 
 
