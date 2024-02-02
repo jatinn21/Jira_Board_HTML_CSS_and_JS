@@ -39,6 +39,8 @@ for( let list of lists){
             e.preventDefault();
         })
         box4.addEventListener('drop',function(e){
+        selected.style.textDecoration = 'line-through';
+
             box4.appendChild(selected)
             selected = null;
         })
